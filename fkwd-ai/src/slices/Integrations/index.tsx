@@ -12,7 +12,7 @@ import FkLogoDiamond from "@/components/FKLogoDiamond";
 import DiamondFK from "./DiamondFK";
 import clsx from "clsx";
 // import PlainGradientLogo from "../CallToActionSlice/PlainGradientLogo";
-import FkIconLogoBlue from "./FkIconLogoBlue";
+import FkIconLogoBlueSM from "../../components/FkIconLogoBlueSM";
 
 /**
  * Props for `Integrations`.
@@ -60,14 +60,15 @@ const icons = {
           // Render the item
           <React.Fragment key={index}>
             {index === Math.floor(slice.primary.icons.length / 2) && (
-              <>
+              < >
                 {/* <StylizedLogoMark /> */}
                 {/* <FkLogoDiamond /> */}
                 {/* <PlainGradientLogo /> */}
                 {/* <DiamondFK /> */}
-                <div className="max-w-[10rem]">
-                  <FkIconLogoBlue />
-                </div>
+                {/* <div className="max-w-[160px] max-h-[160px] aspect-square"> */}
+                  {/* <FkIconLogoBlue/> */}
+                  <FkIconLogoBlueSM/>
+                {/* </div> */}
                 <div className="signal-line rotate-180 bg-gradient-to-t" />
               </>
             )}
