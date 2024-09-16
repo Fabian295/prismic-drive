@@ -65,7 +65,9 @@ const icons = {
                 {/* <FkLogoDiamond /> */}
                 {/* <PlainGradientLogo /> */}
                 {/* <DiamondFK /> */}
-                <FkIconLogoBlue />
+                <div className="max-w-md">
+                  <FkIconLogoBlue />
+                </div>
                 <div className="signal-line rotate-180 bg-gradient-to-t" />
               </>
             )}
