@@ -1,9 +1,10 @@
 import Bounded from "@/components/Bounded";
 import { Content } from "@prismicio/client";
 import { PrismicRichText, PrismicText, SliceComponentProps } from "@prismicio/react";
-import PlainLogo from "./PlainLogo";
-import PlainGradientLogo from "./PlainGradientLogo";
+// import PlainLogo from "./PlainLogo";
+// import PlainGradientLogo from "./PlainGradientLogo";
 import ButtonLink from "@/components/ButtonLink";
+import FkIconLogoBlue from "@/slices/CallToActionSlice/FkIconLogoBlue";
 
 /**
  * Props for `CallToActionSlice`.
@@ -26,7 +27,8 @@ const CallToActionSlice = ({ slice }: CallToActionSliceProps): JSX.Element => {
       <div className="glow absolute -z-10 aspect-square rounded-full w-full max-w-sm bg-blue-500/50 blur-[160px] filter" />
 
       <div className="glass-container rounded-lg bg-gradient-to-b from-slate-900 to-slate-950 p-4 md:rounded-xl">
-        <PlainGradientLogo />
+        {/* <PlainGradientLogo /> */}
+        <FkIconLogoBlue />
       </div>
 
       <div className="text-balance mt-8 max-w-xl text-5xl">
