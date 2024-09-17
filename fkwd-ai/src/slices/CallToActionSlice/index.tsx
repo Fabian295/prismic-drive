@@ -5,7 +5,7 @@ import { PrismicRichText, PrismicText, SliceComponentProps } from "@prismicio/re
 // import PlainGradientLogo from "./PlainGradientLogo";
 import ButtonLink from "@/components/ButtonLink";
 import FkIconLogoBlue from "@/slices/CallToActionSlice/FkIconLogoBlue";
-import FKIconPurple from "./FKiconPurple";
+import FKIconPurple from "./FKIconPurple";
 
 /**
  * Props for `CallToActionSlice`.
